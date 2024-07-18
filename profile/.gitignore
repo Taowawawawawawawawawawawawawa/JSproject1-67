@@ -1,0 +1,4 @@
+*.html
+!index.html
+!profileyim.html
+css/style.css
