@@ -79,10 +79,12 @@ h6 {
 }
 
 h1 {
+    font-family: "Kanit", sans-serif;
     font-size: 24px;
 }
 
 h2 {
+    
     font-size: 22px;
 }
 
@@ -432,7 +434,7 @@ button {
 /** banner section **/
 
 .full_bg {
-    background: url(../images/banner.jpg);
+    background: url(../images/StockSnap_QJXZMNO92D.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -463,12 +465,12 @@ button {
 .creative h1 {
     font-size: 80px;
     line-height: 90px;
-    color: #101010;
+    color: #ffffff;
     font-weight: bold;
 }
 
 .creative p {
-    color: #101010;
+    color: #ffffff;
     padding: 30px 0 55px 0;
     line-height: 30px;
 }
@@ -671,7 +673,8 @@ button {
 /** services section **/
 
 .services {
-    background: #fff;
+    background: #fdc001;
+    ;
     padding-top: 90px;
 }
 
@@ -697,6 +700,7 @@ button {
     line-height: 25px;
     font-weight: bold;
     padding-bottom: 25px;
+
 }
 
 .services_box p {
@@ -880,6 +884,12 @@ button {
     padding-top: 90px;
     padding-bottom: 90px;
 }
+.about2 {
+    background: #000000;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
 
 .container_width {
     padding: 0 15px;
@@ -923,6 +933,15 @@ button {
 
 .about .titlepage p {
     padding-top: 20px;
+}
+.about2 .titlepage h2 {
+    padding-top: 20px;
+    color: #ffffff;
+}
+.about2 .titlepage p {
+    padding-top: 20px;
+    color: #ffffff;
+    padding-bottom: 30px;
 }
 
 .about .read_more {
@@ -1026,7 +1045,9 @@ button {
     background: #2d2d2d;
     text-align: center;
 }
-
+.logo i{
+    font-size: 40px;
+}
 .logo_footer {
     color: #fff !important;
     font-size: 30px;
@@ -1224,3 +1245,54 @@ ul.social_icon li a i:hover {
 .portfolio_page .footer {
     margin-top: 60px;
 }
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+.logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+  
+  .logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+  }
+  
