@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Users/HP VICTUS16/Downloads/html5up-editorial/assets/webfonts"
+		},
+		{
+			"path": "../webTech/JSproject1-67/Oat profile-1.0.0/img"
+		},
+		{
+			"path": "../webTech/JSproject1-67/Oat profile-1.0.0/lib"
+		},
+		{
+			"path": "../webTech/JSproject1-67/Oat profile-1.0.0/scss"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JSproject1-67"
+	}
+}
